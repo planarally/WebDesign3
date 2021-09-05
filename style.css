@@ -1,0 +1,85 @@
+body {
+    background-image: url('img/water.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Comic Neue', cursive;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+header {
+    margin: auto;
+    width: 525px;
+    background-color: white;
+    padding: 30px;
+    padding-right: 0px;
+    margin-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main {
+    margin: auto;
+    width: 525px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bullet {
+    display: inline-block;
+    height: 36px;
+    width: 26px;
+    background-image: url(img/heartbounce.gif);
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.spacer {
+    height: calc(100% - 200px);
+    width: 0px;
+    float: right;
+}
+.bottomRight {
+    float: right;
+    clear: right;
+}
+
+h1 {
+    display: inline;
+    font-size: 56px;
+    color: #a2d2ff;
+    font-weight: 700;
+}
+
+h2 {
+    display: inline;
+    font-size: 44px;
+    color: #bde0fe;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 30px;
+    color: #ffafcc;
+}
+
+p {
+    display: inline;
+    font-size: 18px;
+    color: #8e9aaf;
+}
+
+a {
+    color: #76c893;
+
+}
+
+a:hover {
+    color: #ffc8dd;
+}
