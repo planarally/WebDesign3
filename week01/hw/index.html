@@ -1,13 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- head and css -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Junji Ito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Trade+Winds&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet"  href="style.css"/>
 </head>
+
+<!-- javascript stuff -->
+
+
+<!-- content baby -->
 <body>
-    <h1>junji ito</h1>
-    <h2> my sensei</h2>
+
+    <section class= "panel home">
+        <img src="img/splash.png" class="bg">
+        <div class="inside">
+        </div>
+    </section>
+
+    <section class= "panel bio">
+        <img src="img/bg1.png" class="bg">
+        <div class="inside">
+        </div>
+    </section>
+
+    <section class= "panel work">
+        <div class="inside">
+        </div>
+    </section>
+
+    <section class= "panel bio2">
+        <img src="img/bg2.png" class="bg">
+        <div class="inside">
+        </div>
+    </section>
+
+    <section class= "panel contact" >
+        <div class="inside">
+        </div>
+    </section>
+
 </body>
+
+<script src="libs/jquery-3.6.0.min.js"></script>
+<script src="libs/Scrollify-master/jquery.scrollify.js"></script>
+<script>
+// $(function() {
+//   $.scrollify({
+//     section: ".panel",
+//     //sectionName:false,
+//     scrollSpeed: 300,
+//     after: function(i) {
+//       /*
+// 			if(i===2) {
+// 				$.scrollify.setOptions({
+// 					easing:"easeOutExpo"
+// 				});
+// 			}*/
+//     }
+//   });
+
+//   $(".scroll,.scroll-btn").click(function(e) {
+//     e.preventDefault();
+
+//     $.scrollify.next();
+//   });
+// });
+$(function() {
+          $.scrollify({
+            section : ".panel",
+          });
+        });
+
+</script>
+
 </html>
