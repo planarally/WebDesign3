@@ -2,6 +2,10 @@
     width: 50%;
 }
 
+.w-sm-33{
+    width: 33.3333%;
+}
+
 
 /* MED SCREENS (IPAD, HORIZONTAL PHONE) */
 @media (min-width: 768px){
@@ -24,6 +28,10 @@
 
     .w-md-50{
         width: 50%;
+    }
+
+    .w-md-60{
+        width: 60%;
     }
 
     .w-md-66{
