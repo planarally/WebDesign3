@@ -15,40 +15,6 @@
 
 <!-- javascript stuff -->
 
-
-<!-- content baby -->
-<body>
-
-    <section class= "panel home">
-        <img src="img/splash.png" class="bg">
-        <div class="inside">
-        </div>
-    </section>
-
-    <section class= "panel bio">
-        <img src="img/bg1.png" class="bg">
-        <div class="inside">
-        </div>
-    </section>
-
-    <section class= "panel work">
-        <div class="inside">
-        </div>
-    </section>
-
-    <section class= "panel bio2">
-        <img src="img/bg2.png" class="bg">
-        <div class="inside">
-        </div>
-    </section>
-
-    <section class= "panel contact" >
-        <div class="inside">
-        </div>
-    </section>
-
-</body>
-
 <script src="libs/jquery-3.6.0.min.js"></script>
 <script src="libs/Scrollify-master/jquery.scrollify.js"></script>
 <script>
@@ -76,9 +42,45 @@
 $(function() {
           $.scrollify({
             section : ".panel",
+            scrollSpeed: 500,
           });
         });
 
 </script>
+
+<!-- content baby -->
+<body>
+
+    <div class= "panel home">
+        <div class="container">
+            <h1>Junji Ito</h1>
+            <h2>Master Of Horror</h2>
+        </div>
+        <!-- <img src="img/splash.png" class="bg"> -->
+    </div>
+
+    <section class= "panel bio">
+        <div class="container"><p>sdfhsdjfa</p>
+        </div>
+    </section>
+
+    <section class= "panel work">
+        <div class="container"><p>sdfhsdjfa</p>
+        </div>
+    </section>
+
+    <section class= "panel bio2">
+        <div class="container"><p>sdfhsdjfa</p>
+        </div>
+    </section>
+
+    <section class= "panel contact" >
+        <div class="container"><p>sdfhsdjfa</p>
+        </div>
+    </section>
+
+</body>
+
+
 
 </html>
