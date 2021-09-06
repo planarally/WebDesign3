@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Trade+Winds&display=swap" rel="stylesheet"> 
     <link rel="stylesheet"  href="style.css"/>
+    <link rel="stylesheet"  href="flexgrid.css"/>
 </head>
 
 <!-- javascript stuff -->
@@ -37,7 +38,7 @@ $(function() {
     </div>
 
     <section class= "panel bio" data-section-name="about">
-        <div class="container"><img src="img/junji.png"><p>Junji Ito was born in the Gifu prefecture of Japan in 1963. He was inspired from a young age by both his older sister's drawings and the work of Kazuo Umezu. Ito first began writing and drawing manga as a hobby while working as a dental technician in the early 90's. In 1987, he submitted a short story to Gekkan Halloween that won an honorable mention in the Kazuo Umezu Prize (with Umezu himself as one of the judges).</p>
+        <div class="container"><img src="img/junji.png" alt="junji ito"><p>Junji Ito was born in the Gifu prefecture of Japan in 1963. He was inspired from a young age by both his older sister's drawings and the work of Kazuo Umezu. Ito first began writing and drawing manga as a hobby while working as a dental technician in the early 90's. In 1987, he submitted a short story to Gekkan Halloween that won an honorable mention in the Kazuo Umezu Prize (with Umezu himself as one of the judges).</p>
 
         <p>In addition to Kazuo Umezu, Ito has cited Hideshi Hino, Shinichi Furuka, Yasutaka Tsutsui, and H.P. Lovecraft as being major influences on his work.</p>
             
@@ -48,7 +49,45 @@ $(function() {
     </section>
 
     <section class= "panel work" data-section-name="work">
-        <div class="container"><p>sdfhsdjfa</p>
+        <div class="container">
+            
+            <picture>
+                <source media="(min-width:768px)" srcset="img/frankenstein.jpg">
+                <img src="img/frankensteinbook.jpg" alt="Frankenstein">
+            </picture> 
+            <picture>
+                <source media="(min-width:768px)" srcset="img/gyo.jpg">
+                <img src="img/gyobook.jpg" alt="Gyo">
+            </picture> 
+            <picture>
+                <source media="(min-width:768px)" srcset="img/remina.jpg">
+                <img src="img/reminabook.jpg" alt="Remina">
+            </picture> 
+            <picture>
+                <source media="(min-width:768px)" srcset="img/shiver.jpg">
+                <img src="img/shiverbook.jpg" alt="Shiver">
+            </picture> 
+            <picture>
+                <source media="(min-width:768px)" srcset="img/sensor.jpg">
+                <img src="img/sensorbook.jpg" alt="Sensor">
+            </picture> 
+            <picture>
+                <source media="(min-width:768px)" srcset="img/smashed.jpg">
+                <img src="img/smashedbook.jpg" alt="Smashed">
+            </picture> 
+            <picture>
+                <source media="(min-width:768px)" srcset="img/tomie.jpg">
+                <img src="img/tomiebook.jpg" alt="Tomie">
+            </picture> 
+            <picture>
+                <source media="(min-width:768px)" srcset="img/yonmu.jpg">
+                <img src="img/yonmubook.jpg" alt="Yon & Mu">
+            </picture> 
+            <picture>
+                <source media="(min-width:768px)" srcset="img/uzumaki.jpg">
+                <img src="img/uzumakibook.jpg" alt="Uzumaki">
+            </picture> 
+
         </div>
     </section>
 

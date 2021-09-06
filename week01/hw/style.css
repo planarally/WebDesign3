@@ -161,6 +161,13 @@ body {
     background-color: grey;  
 }
 
+.work .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
 /* CONTACT PANEL */
 
 .contact{    
