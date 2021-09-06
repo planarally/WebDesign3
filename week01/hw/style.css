@@ -157,10 +157,6 @@ body {
 
 /* WORK PANEL */
 
-.work{
-    background-color: grey; 
-}
-
 .work .flex-container {
     display: flex;
     flex-direction: row;
@@ -170,10 +166,6 @@ body {
     height: 100vh;
     align-content: space-around;
     
-}
-
-.work p {
-    display: hidden;
 }
 
 .w-sm-33{
@@ -190,7 +182,9 @@ body {
 
 @media (min-width: 1400px){
     
-
+    .w-lg-33{
+        width: 33.3333%;
+    }
 
 }
 
@@ -203,3 +197,99 @@ body {
     background-repeat: no-repeat;
 }
 
+.contact h1 {
+    text-align: center;
+    font-family: 'Trade Winds', cursive;
+    color: red;
+    font-size: 4vh;
+}
+
+.contact p {
+    text-align: center;
+    font-family: 'Averia Sans Libre', cursive;
+    color: white;
+    font-size: 14px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 20px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 35px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  
+  input[type=submit]:hover {
+    background-color: grey;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  @media (min-width: 1024px){
+    
+    input[type=text], select {
+        width: 65%;
+        padding: 20px 20px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin: 26px 19%;
+      }
+      
+      input[type=submit] {
+        width: 65%;
+        background-color: red;
+        color: white;
+        padding: 14px 20px;
+        margin: 26px 19%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    
+    }
+
+    @media (min-width: 1920px){
+    
+        input[type=text], select {
+            width: 35%;
+            padding: 20px 20px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin: 26px 32%;
+          }
+          
+          input[type=submit] {
+            width: 35%;
+            background-color: red;
+            color: white;
+            padding: 14px 20px;
+            margin: 26px 32%;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        
+        }
