@@ -18,63 +18,42 @@
 <script src="libs/jquery-3.6.0.min.js"></script>
 <script src="libs/Scrollify-master/jquery.scrollify.js"></script>
 <script>
-// $(function() {
-//   $.scrollify({
-//     section: ".panel",
-//     //sectionName:false,
-//     scrollSpeed: 300,
-//     after: function(i) {
-//       /*
-// 			if(i===2) {
-// 				$.scrollify.setOptions({
-// 					easing:"easeOutExpo"
-// 				});
-// 			}*/
-//     }
-//   });
-
-//   $(".scroll,.scroll-btn").click(function(e) {
-//     e.preventDefault();
-
-//     $.scrollify.next();
-//   });
-// });
 $(function() {
           $.scrollify({
             section : ".panel",
-            scrollSpeed: 500,
+            scrollSpeed: 1000,
           });
         });
-
 </script>
 
 <!-- content baby -->
 <body>
 
-    <div class= "panel home">
+    <div class= "panel home" data-section-name="home">
         <div class="container">
             <h1>Junji Ito</h1>
             <h2>Master Of Horror</h2>
         </div>
-        <!-- <img src="img/splash.png" class="bg"> -->
     </div>
 
-    <section class= "panel bio">
+    <section class= "panel bio" data-section-name="about">
+        <div class="container"><img src="img/junji.png"><p>Junji Ito was born in the Gifu prefecture of Japan in 1963. He was inspired from a young age by both his older sister's drawings and the work of Kazuo Umezu. Ito first began writing and drawing manga as a hobby while working as a dental technician in the early 90's. In 1987, he submitted a short story to Gekkan Halloween that won an honorable mention in the Kazuo Umezu Prize (with Umezu himself as one of the judges).</p>
+
+        <p>In addition to Kazuo Umezu, Ito has cited Hideshi Hino, Shinichi Furuka, Yasutaka Tsutsui, and H.P. Lovecraft as being major influences on his work.</p>
+            
+        <p>Some of the recurring themes of Ito's work include body horror, seemingly ordinary characters who begin to act out of irrational compulsion, the breakdown of society, deep sea organisms, and the inevitability of one's demise.</p>
+            
+        <p>Ito's universe is often very cruel and capricious; his characters often find themselves victims of malevolent unnatural circumstances for no discernible reason or punished out of proportion for minor infractions against an unknown and incomprehensible natural order. <span style="color:red;">✤</span></p>
+        </div>
+    </section>
+
+    <section class= "panel work" data-section-name="work">
         <div class="container"><p>sdfhsdjfa</p>
         </div>
     </section>
 
-    <section class= "panel work">
-        <div class="container"><p>sdfhsdjfa</p>
-        </div>
-    </section>
 
-    <section class= "panel bio2">
-        <div class="container"><p>sdfhsdjfa</p>
-        </div>
-    </section>
-
-    <section class= "panel contact" >
+    <section class= "panel contact" data-section-name="contact">
         <div class="container"><p>sdfhsdjfa</p>
         </div>
     </section>

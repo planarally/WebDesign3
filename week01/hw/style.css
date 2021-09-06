@@ -4,6 +4,8 @@ body {
   margin: 0;
   background-color: black;
   overflow: hidden;
+  background-image: url(img/bg3.png);
+  background-repeat: repeat;
 }
 
 .panel {
@@ -15,7 +17,7 @@ body {
     position: relative;
     height: 100%;
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 /* HOME PANEL */
@@ -88,12 +90,70 @@ body {
 
 /* BIO PANEL */
 
-.bio{ 
+.bio { 
     background-image: url(img/bg1.png);
     background-size: 250vh;
     background-position: center top;
     background-repeat: no-repeat;
 }
+
+.bio p {
+    font-family: 'Averia Sans Libre', cursive;
+    color: white;
+    font-weight:400;
+    font-size: 2.1vh;
+}
+
+.bio img {
+    height: 131px;
+    width: auto;
+    float: right;
+    clear: both;
+    margin: 0px 0px 10px 15px;
+}
+
+@media (min-width: 768px){
+    
+    .bio .container {
+        margin-top: 125px;
+    } 
+    
+    .bio p {
+        font-size: 2vh;
+    }
+
+    .bio img {
+        height: 325px;
+        margin: 25px 0px 25px 25px;
+    }
+
+}
+
+@media (min-width: 1024px){
+    
+    .bio .container {
+        margin-top: 125px;
+    } 
+    
+    .bio p {
+        font-size: 2.4vh;
+    }
+
+    .bio img {
+        height: 325px;
+        margin: 25px 0px 25px 25px;
+    }
+
+}
+
+@media (min-width: 1490px){
+    
+    .bio .container {
+        width: 60%;
+    } 
+
+}
+
 
 /* WORK PANEL */
 
@@ -101,18 +161,12 @@ body {
     background-color: grey;  
 }
 
-/* BIO 2 PANEL */
+/* CONTACT PANEL */
 
-.bio2{
+.contact{    
     background-image: url(img/bg2.png);
     background-size: 250vh;
     background-position: center top;
     background-repeat: no-repeat;
-}
-
-/* CONTACT PANEL */
-
-.contact{
-    background-color: grey;  
 }
 
