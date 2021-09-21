@@ -1,0 +1,32 @@
+:root {
+    --gum: #F55B6B;
+    --kirby: #F7A5AD;
+    --choco: #754F52;
+    --rose: #752B33;
+    --white: #ffffff;
+}
+
+
+.btn-outline-success {
+    color: var(--rose);
+    border-color: var(--rose);
+}
+
+.btn-outline-success:hover {
+    color: var(--white);
+    background-color: var(--rose);
+    border-color: var(--rose);
+}
+
+.form-control {
+    
+    border-color: var(--rose);
+}
+
+.bg-light {
+    background-color: var(--kirby) !important;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
