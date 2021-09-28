@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Raleway&display=swap');
+
+:root {
+    --red: #9F2828;
+    --white: #ffffff;
+    --brown: #290705;
+    --dgreen: #04521A;
+    --lgreen: #289E49;
+}
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.bg {
+    background-color: var(--brown);
+}
+
+hr{
+    background-color: var(--red) !important;
+}
+
+.herotitle {
+    color: var(--white);
+    font-size: 10vh !important;
+    font-family: 'Bowlby One', cursive;
+}
+
+.greentitle {
+    color: var(--lgreen) !important;
+    font-family: 'Bowlby One', cursive;
+}
+
+h2 {
+    color: var(--dgreen) !important;
+}
+
+.bg-milt {
+    background-image: url(milthero1sm.png);
+    height: 100vh;
+    background-position: center top;
+}
+
+@media (min-width: 1024px){
+    .bg-milt{
+        background-image: url(milthero1.png);
+    }
+}
+
+.btn-outline-secondary{
+    color: var(--lgreen) !important;
+    border-color: var(--lgreen) !important;
+}
+
+.btn-outline-secondary:hover {
+    color: var(--white) !important;
+    background-color: var(--dgreen) !important;
+    border-color: var(--dgreen) !important;
+}
+
+.btn-outline-success{
+    color: var(--brown) !important;
+    border-color: var(--brown) !important;
+}
+
+.btn-outline-success:hover {
+    color: var(--white) !important;
+    background-color: var(--brown) !important;
+    border-color: var(--brown) !important;
+}
+
+.bg-green {
+    background-color: var(--lgreen) !important;
+}

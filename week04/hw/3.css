@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo&display=swap');
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --orange: #78290F;
+    --yellow: #CCA43B;
+    --blue: #15616D;
+}
+
+body {
+    font-family:  'Arvo', serif !important;
+}
+
+.bg {
+    background-color: var(--white);
+}
+
+.bg2 {
+    background-color: var(--black);
+}
+
+hr{
+    background-color: var(--orange) !important;
+}
+
+.herotitle {
+    color: var(--yellow);
+    font-size: 10vh !important;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 2px 2px 2px black;
+}
+
+.greentitle {
+    color: var(--orange) !important;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+    color: var(--blue) !important;
+}
+
+.bg-milt {
+    background-image: url(milthero3sm.png);
+    height: 100vh;
+    background-position: center top;
+}
+
+@media (min-width: 1024px){
+    .bg-milt{
+        background-image: url(milthero3.png);
+    }
+}
+
+.btn-secondary{
+    color: var(--white) !important;
+    background-color: var(--orange) !important;
+    border-color: var(--orange) !important;
+}
+
+.btn-secondary:hover {
+    color: var(--white) !important;
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
+}
+
+.btn-outline-success{
+    color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
+}
+
+.btn-outline-success:hover {
+    color: var(--black) !important;
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
+}
+
+.bg-green {
+    background-color: var(--blue) !important;
+}

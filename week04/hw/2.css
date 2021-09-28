@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+:root {
+    --dblue: #0c0e2f;
+    --dusty: #C4A69D;
+    --orange: #AF3800;
+    --dgreen: #034732;
+    --lgreen: #A2C5AC;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.bg {
+    background-color: var(--dusty);
+}
+
+.bg2 {
+    background-color: var(--dblue);
+}
+
+hr{
+    background-color: var(--orange) !important;
+}
+
+.herotitle {
+    color: var(--dusty);
+    font-size: 10vh !important;
+    font-family: 'Pacifico', cursive;
+}
+
+.greentitle {
+    color: var(--dblue) !important;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    color: var(--dblue) !important;
+}
+
+.bg-milt {
+    background-image: url(milthero2sm.png);
+    height: 100vh;
+    background-position: center top;
+}
+
+@media (min-width: 1024px){
+    .bg-milt{
+        background-image: url(milthero2.png);
+    }
+}
+
+.btn-outline-secondary{
+    color: var(--lgreen) !important;
+    border-color: var(--lgreen) !important;
+}
+
+.btn-outline-secondary:hover {
+    color: var(--dgreen) !important;
+    background-color: var(--lgreen) !important;
+    border-color: var(--lgreen) !important;
+}
+
+.btn-outline-success{
+    color: var(--dusty) !important;
+    border-color: var(--dusty) !important;
+}
+
+.btn-outline-success:hover {
+    color: var(--white) !important;
+    background-color: var(--dusty) !important;
+    border-color: var(--dusty) !important;
+}
+
+.bg-green {
+    background-color: var(--orange) !important;
+}
