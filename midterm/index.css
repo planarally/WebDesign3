@@ -1,0 +1,22 @@
+#logo {
+    width: 60vw;
+    height: auto;
+}
+
+
+.navbar-toggler {
+    color: black !important;
+    border: none !important;
+}
+
+.btn:focus {
+    outline: none !important;
+  }
+  
+@media (min-width: 1024px){
+
+#logo {
+    width: auto;
+    height: 100px;
+}
+}
