@@ -19,15 +19,15 @@
 
 <header>
         <nav class="d-flex justify-content-around py-3 navbar-expand-lg navbar-light bg-light">
-            <button type="button" class="btn btn-light shadow-none"><i class="fas fa-search"></i></button>
+            <button type="button" class="btn btn-light shadow-none" data-bs-toggle="modal" data-bs-target="#search" ><i class="fas fa-search text-primary"></i></button>
 
-          <a href="index.css"><img src="logo.png" id="logo"></a>
+          <a href="index.html"><img src="logo.png" id="logo"></a>
 
-          <button type="button" class="btn btn-light shadow-none"><i class="fas fa-shopping-bag"></i></button>
+          <button type="button" class="btn btn-light shadow-none"><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></button>
 
           <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-dice-d20"></i>
-
+            
         </nav>
 
       <div class="collapse d-lg-block" id="navbarToggleExternalContent">
@@ -36,14 +36,28 @@
                 <li class="nav-item"><a href="#" class="nav-link">Dice</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Miniatures</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Accessories</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Ephermera</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Commissions</a></li>
             </ul>
         </div>
       </div>
       
+<div class="modal fade" id="search" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchform">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-modal" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+        <button type="button" class="btn btn-primary btn-modal modal-search"><i class="fas fa-search px-2"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </header>
+
 
 <main>
 
@@ -242,15 +256,15 @@
 <footer class="navbar navbar-light bg-light">
 
         <div class="container-fluid">
-          <a class="navbar-brand text-muted"><i class="fab fa-d-and-d"></i>
+          <a class="navbar-brand text-muted" href="#"><i class="fab fa-d-and-d"></i>
             Website By Maddison</a>
 
           <div class="d-flex">
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-tumblr"></i></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-instagram"></i></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-etsy"></i></a></li>
-            </ul>
+            
+            <a class="text-muted" href="#"><i class="fas fa-envelope px-2"></i></i></a>
+                <a class="text-muted" href="#"><i class="fab fa-tumblr px-2"></i></a>
+                <a class="text-muted" href="#"><i class="fab fa-instagram px-2"></i></a>
+                <a class="text-muted" href="#"><i class="fab fa-etsy px-2"></i></a>
         </div>
 
         </div>

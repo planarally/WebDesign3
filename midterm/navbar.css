@@ -8,6 +8,24 @@
     border: none !important;
 }
 
+
+.modal-footer{
+    border-top: none;
+}
+
+.btn-modal {
+    border-radius: 2rem;
+}
+
+.modal-search {
+    padding: .375rem 2px;
+}
+
+#searchform {
+    border-radius: 2rem;
+    line-height: 2.5;
+}
+
 @media (min-width: 1024px){
 
 #logo {
