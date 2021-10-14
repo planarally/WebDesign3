@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Emilys+Candy&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --primary: #70587C !important;
+    --secondary: #502F4C !important;
+    --light: #C8B8DB !important;
+    --dark: #000000 !important;
+    --white: #F9F4F5 !important;
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.btn-light {
+    background-color: var(--light) !important;
+    border: 0;
+}
+
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    color: var(--white) !important;
+}
+
+.nav-link {
+    color: var(--white) !important;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.text-light {
+    color: var(--light) !important;
+}
+
+.text-muted {
+    color: var(--dark) !important;
+    opacity: .5;
+}
+
+.carousel-caption {
+    background-color: rgba(200, 184, 219, 0.7);
+    border-radius: 10%;
+    color: var(--dark) !important;
+}
+
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Emilys Candy', cursive;
+}
+
+.card-title {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem !important;
+    font-style: italic;
+}
