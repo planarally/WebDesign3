@@ -2,7 +2,42 @@
     border-radius: 50%;
 }
 
+.card {
+    border: 0;
+    border-radius: 50%;
+}
+
+.card-body {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.featured .card-body {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.card .btn {
+    border-radius: 50%;
+}
+
+.card-img-top {
+    border-radius: 50% 25%;
+}
+
+.side {
+    width: 356px;
+}
+
 .card-header {
     background-color: transparent !important;
-    border-bottom: dashed;
-}   
+    border-bottom: 0;
+}
+
+.page-item.active .page-link {
+    border-radius: 50%;
+}
+
+.page-link {
+    border: none;
+}
