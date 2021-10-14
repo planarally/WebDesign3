@@ -1,0 +1,22 @@
+.carousel .frame {
+    height: 78vh;
+    width: 100%;
+}
+
+.carousel .envy {
+    background-image: url(homeimg/envy.png);
+    background-position: 75% 40%;
+    background-repeat: no-repeat;
+}
+
+.carousel .guardian {
+    background-image: url(homeimg/guardian.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel .floaton {
+    background-image: url(homeimg/floatingon.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
