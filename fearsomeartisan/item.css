@@ -1,3 +1,14 @@
 .container {
     min-height: 72vh;
 }
+
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+    background-color: var(--lighter);
+}
