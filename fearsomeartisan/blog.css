@@ -34,10 +34,29 @@
     border-bottom: 0;
 }
 
+li .fas {
+    color: var(--primary);
+}
+
 .page-item.active .page-link {
     border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.disabled {
+    background-color: var(--white) !important;
+    color: var(--dark) !important;
 }
 
 .page-link {
     border: none;
+    border-radius: 50%;
+    color: var(--secondary);
+    background-color: var(--white);
+}
+
+.page-link:hover {
+    border: none;
+    color: var(--primary);
 }
