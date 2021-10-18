@@ -3,6 +3,33 @@
     width: 100%;
 }
 
+.carousel-caption{
+    border-radius: 50% !important;
+    width: 50%;
+    left: 25%;
+    padding: 1.5rem;
+    background-color: var(--white);
+}
+
+.carousel .envy {
+    background-image: url(homeimg/envysm.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.carousel .guardian {
+    background-image: url(homeimg/guardiansm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel .floaton {
+    background-image: url(homeimg/floatingonsm.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1024px) {
 .carousel .envy {
     background-image: url(homeimg/envy.png);
     background-position: 75% 40%;
@@ -19,4 +46,6 @@
     background-image: url(homeimg/floatingon.png);
     background-position: top center;
     background-repeat: no-repeat;
+}
+
 }

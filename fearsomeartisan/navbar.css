@@ -40,11 +40,15 @@
 
 .nav-item {
     font-family: 'Macondo Swash Caps', cursive;
-    font-size: 1.5rem;
-    padding: 0.1rem 4rem;
+    font-size: 1.25rem;
+    padding: 0.1rem 3rem;
 }
 
 .nav-item:hover {
     opacity: .6;
     transition: 0.4s;
+}
+
+nav .btn {
+    font-size: 1.2rem;
 }

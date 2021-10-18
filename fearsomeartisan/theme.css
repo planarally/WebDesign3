@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Macondo+Swash+Caps&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --primary: #6C6061 !important;
-    --secondary: #6A994E !important;
-    --light:  #D6A184 !important;
-    --dark: #386641 !important;
-    --white: #F2F2EB !important;
-    --lighter: #efcebd !important;
+    --primary: #798077 !important;
+    --secondary: #3f9b91 !important;
+    --light:  #e3cbaf !important;
+    --dark: #32525f !important;
+    --white: #fff7ed !important;
+    --lighter: #fdecd8 !important;
 }
 
 .bg-light {
@@ -23,8 +23,41 @@
     background-color: var(--lighter) !important;
 }
 
-nav .btn {
-    font-size: 2rem;
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+.bg-zimmer {
+    background-image: url(bgs/zimmer.jpg);
+}
+
+.bg-bonomo {
+    background-image: url(bgs/bonomo.jpg);
+}
+
+.bg-keller {
+    background-image: url(bgs/keller.jpg);
+}
+
+.bg-krivec {
+    background-image: url(bgs/krivec.jpg);
+}
+
+.bg-smith {
+    background-image: url(bgs/smith.jpg);
+}
+
+.bg-splash {
+    background-image: url(bgs/splash.jpg);
+}
+
+.bg-splash2 {
+    background-image: url(bgs/splash2.jpg);
+    background-position: center;
+}
+
+.card {
+    margin: 10px;
 }
 
 .btn:hover {
@@ -59,6 +92,9 @@ nav .btn {
 }
 .text-light {
     color: var(--light) !important;
+}
+.text-white {
+    color: var(--white) !important;
 }
 
 .text-muted {
@@ -101,4 +137,11 @@ h2 {
     font-family: 'IM Fell English', serif;
     font-size: 1.5rem !important;
     font-style: italic;
+}
+
+a:hover {
+    opacity: .6;
+    transition: 0.5s;
+    text-shadow:0 0 10px #fff, 0 0 20px #fff, 0 0 30px #3f9b91, 0 0 40px #3f9b91, 0 0 50px #3f9b91, 0 0 60px #3f9b91, 0 0 70px #3f9b91;
+    
 }
