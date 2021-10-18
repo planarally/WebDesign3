@@ -16,7 +16,7 @@
   <title>Fearsome Artisan</title>
 </head>
 
-<body>
+<body class="bg-white">
 
 
   <header>
@@ -74,11 +74,11 @@
 
 
   <main>
-
+<div class="container">
     <div class="row g-5 container my-3">
       <div class="col-md-5 col-lg-4 order-md-last">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
-          <span class="text-primary">Your cart</span>
+          <span class="text-primary h2">Your cart</span>
           <span class="badge bg-primary rounded-pill">3</span>
         </h4>
         <ul class="list-group mb-3">
@@ -103,12 +103,12 @@
             </div>
             <span class="text-muted">$5</span>
           </li>
-          <li class="list-group-item d-flex justify-content-between bg-light">
-            <div class="text-success">
+          <li class="list-group-item d-flex justify-content-between bg-secondary">
+            <div class="text-white">
               <h6 class="my-0">Promo code</h6>
               <small>EXAMPLECODE</small>
             </div>
-            <span class="text-success">−$5</span>
+            <span class="text-white">−$5</span>
           </li>
           <li class="list-group-item d-flex justify-content-between">
             <span>Total (USD)</span>
@@ -118,13 +118,13 @@
 
         <form class="card p-2">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Promo code">
+            <input type="text" class="form-control" placeholder="Promo Code">
             <button type="submit" class="btn btn-secondary">Redeem</button>
           </div>
         </form>
       </div>
       <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">Billing address</h4>
+        <h2 class="mb-3">Billing address</h2>
         <form class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-sm-6">
@@ -144,18 +144,7 @@
             </div>
 
             <div class="col-12">
-              <label for="username" class="form-label">Username</label>
-              <div class="input-group has-validation">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" required>
-                <div class="invalid-feedback">
-                  Your username is required.
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+              <label for="email" class="form-label">Email </label>
               <input type="email" class="form-control" id="email" placeholder="you@example.com">
               <div class="invalid-feedback">
                 Please enter a valid email address for shipping updates.
@@ -217,7 +206,7 @@
 
           <hr class="my-4">
 
-          <h4 class="mb-3">Payment</h4>
+          <h2 class="mb-3">Payment</h2>
 
           <div class="my-3">
             <div class="form-check">
@@ -271,10 +260,11 @@
 
           <hr class="my-4">
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Checkout</button>
+          <button class="w-100 btn btn-secondary btn-lg" type="submit">Checkout</button>
         </form>
       </div>
     </div>
+  </div>
   </main>
 
   </main>

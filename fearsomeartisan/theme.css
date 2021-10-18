@@ -76,6 +76,24 @@
 
 }
 
+.list-group-item {
+    border-color: var(--lighter);
+}
+
+.form-control {
+    font-family: 'Work Sans', sans-serif;
+    font-size: .75rem;
+    border-color: var(--lighter) !important;
+
+}
+
+.form-select {
+    font-family: 'Work Sans', sans-serif;
+    font-size: .75rem;
+    border-color: var(--lighter) !important;
+
+}
+
 .btn:active {
     opacity: .6;
     transition: 0.5s;
@@ -90,6 +108,11 @@
 .btn-primary {
     background-color: var(--primary) !important;
     border-color: var(--primary) !important;
+    color: var(--white) !important;
+}
+.btn-secondary {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
     color: var(--white) !important;
 }
 
@@ -142,7 +165,7 @@ h1 {
     font-family: 'IM Fell English', serif;
 }
 
-h2 {
+h2, .h2 {
     font-family: 'IM Fell English', serif;
     font-size: 1.5rem !important;
     font-style: italic;
