@@ -37,7 +37,7 @@
 
 .bg-bonomo {
     background-image: url(bgs/bonomo.jpg);
-    background-position: center;
+    background-position: center -302px;
 }
 
 .bg-keller {
@@ -47,7 +47,7 @@
 
 .bg-krivec {
     background-image: url(bgs/krivec.jpg);
-    background-position: center;
+    background-position: center top;
 }
 
 .bg-smith {

@@ -13,6 +13,7 @@
     <link href="navbar.css" rel="stylesheet">
     <link href="item.css" rel="stylesheet">
     <link href="theme.css" rel="stylesheet">
+    <link href="lib/jquery-ui/jquery-ui.css" rel="stylesheet">
     <title>Fearsome Artisan</title>
 </head>
 
@@ -44,7 +45,8 @@
           <a href="index.html"><img src="logo.png" id="logo"></a>
     
           <button type="button" class="btn btn-light shadow-none"><a href="cart.html"><i
-                class="fas fa-shopping-bag text-primary"></i></a></button>
+                class="fas fa-shopping-bag text-primary"></i></a> 
+                <span id="cartNo" class="badge bg-primary rounded-pill">1</span></button>
     
           <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
@@ -86,7 +88,7 @@
                     <h2>$12.99</h2>
                     <p class="lead">Description</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Add to Cart</button>
+                        <button id="addtoCart" type="button" class="btn btn-primary btn-lg px-4 me-md-2">Add to Cart</button>
                         <button type="button" class="btn btn-outline-primary btn-lg px-4" onclick="history.back()">
                             Back</button>
                     </div>
@@ -116,6 +118,9 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/9e98e9d338.js" crossorigin="anonymous"></script>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="lib/jquery-ui/jquery-ui.js"></script>
+    <script src="cart.js"></script>
 
 </body>
 
