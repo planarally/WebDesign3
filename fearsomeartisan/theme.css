@@ -18,6 +18,9 @@
 .bg-primary {
     background-color: var(--primary) !important;
 }
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
 
 .bg-lighter {
     background-color: var(--lighter) !important;
@@ -29,26 +32,32 @@
 
 .bg-zimmer {
     background-image: url(bgs/zimmer.jpg);
+    background-position: center top;
 }
 
 .bg-bonomo {
     background-image: url(bgs/bonomo.jpg);
+    background-position: center;
 }
 
 .bg-keller {
     background-image: url(bgs/keller.jpg);
+    background-position: center;
 }
 
 .bg-krivec {
     background-image: url(bgs/krivec.jpg);
+    background-position: center;
 }
 
 .bg-smith {
     background-image: url(bgs/smith.jpg);
+    background-position: center;
 }
 
 .bg-splash {
     background-image: url(bgs/splash.jpg);
+    background-position: center;
 }
 
 .bg-splash2 {

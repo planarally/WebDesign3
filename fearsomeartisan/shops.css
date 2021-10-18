@@ -1,0 +1,40 @@
+.card {
+    border-radius: 60%
+}
+
+.card-img {
+    width: 70%;
+    margin: 15px auto 0px auto;
+}
+
+.card .btn {
+    border-radius: 50%;
+    padding: 10px 40px;
+}
+
+.btn-price {
+    color: var(--dark) !important;
+    border-color: var(--dark) !important;
+    font-family: 'Macondo Swash Caps', cursive;
+}
+
+.btn-price:hover {
+    color: #fff !important;
+    background-color: var(--dark) !important;
+    border-color: #fff;
+}
+
+.sale {
+    background-color: var(--secondary);
+    border-radius: 50%;
+    position: absolute;
+    color: var(--white);
+    font-family: 'IM Fell English', serif;
+    font-size: 1.5rem !important;
+    font-style: italic;
+    width: 70px;
+    height: 70px;
+    padding-top: 18px;
+    top: 45px;
+    left: -12px;
+}
