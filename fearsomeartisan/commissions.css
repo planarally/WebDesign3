@@ -18,6 +18,15 @@ textarea {
     margin: 0px;
 }
 
+label {
+    font-family: 'IM Fell English', serif;
+    font-size: 1.2rem !important;
+    font-style: italic;
+    color: var(--white);
+    position: relative;
+    left: 15px;
+}
+
 .card-header:first-child {
     border-radius: 100% 100%;
     width: 118px;
