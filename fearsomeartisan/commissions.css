@@ -15,6 +15,7 @@ textarea {
 
 .card {
     border-radius: 50% !important;
+    margin: 0px;
 }
 
 .card-header:first-child {
