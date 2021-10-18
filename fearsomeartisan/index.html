@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link href="navbar.css" rel="stylesheet">
   <link href="carousel.css" rel="stylesheet">
+  <link href="theme.css" rel="stylesheet">
   <title>Fearsome Artisan</title>
 </head>
 
@@ -20,14 +21,31 @@
 
 
   <header>
+
+    
+    <div class="collapse d-lg-block" id="navbarToggleExternalContent">
+      <div class="d-flex justify-content-center py-2 bg-lighter">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="dice.html" class="nav-link">Dice</a></li>
+          <li class="nav-item"><a href="miniatures.html" class="nav-link">Miniatures</a></li>
+          <li class="nav-item"><a href="accessories.html" class="nav-link">Accessories</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="commissions.html" class="nav-link">Commissions</a></li>
+        </ul>
+      </div>
+    </div>
+
     <nav class="d-flex justify-content-around py-3 navbar-expand-lg navbar-light bg-light">
+
+
+        
       <button type="button" class="btn btn-light shadow-none" data-bs-toggle="modal" data-bs-target="#search"><i
           class="fas fa-search text-primary"></i></button>
 
       <a href="index.html"><img src="logo.png" id="logo"></a>
 
       <button type="button" class="btn btn-light shadow-none"><a href="cart.html"><i
-            class="fas fa-shopping-bag"></i></a></button>
+            class="fas fa-shopping-bag text-primary"></i></a></button>
 
       <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
@@ -36,24 +54,6 @@
 
     </nav>
 
-    <div class="collapse d-lg-block" id="navbarToggleExternalContent">
-      <div class="bg-dark d-flex justify-content-center py-4 bg-dark">
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="dice.html" class="nav-link">Dice</a></li>
-          <li class="nav-item"><a href="miniatures.html" class="nav-link">Miniatures</a></li>
-          <li class="nav-item"><a href="accessories.html" class="nav-link">Accessories</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="commissions.html" class="nav-link">Commissions</a></li>
-          
-          <li class="nav-item"><a href="https://diceenvy.com/" class="nav-link">Inspo 1</a></li>
-          
-          <li class="nav-item"><a href="https://articketbcn.org/" class="nav-link">Inspo 2</a></li>
-          
-          <li class="nav-item"><a href="https://metallicdicegames.com/" class="nav-link">Inspo 3</a></li>
-          <li class="nav-item"><a href="wireframe.jpg" class="nav-link">Wireframes</a></li>
-        </ul>
-      </div>
-    </div>
 
     <div class="modal fade" id="search" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -89,7 +89,7 @@
 
 
           <div class="container">
-            <div class="carousel-caption text-start">
+            <div class="carousel-caption">
               <h1>Example headline.</h1>
               <p>Some representative placeholder content for the first slide of the carousel.</p>
               <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
@@ -113,7 +113,7 @@
           <div class="frame"></div>
 
           <div class="container">
-            <div class="carousel-caption text-end">
+            <div class="carousel-caption">
               <h1>One more for good measure.</h1>
               <p>Some representative placeholder content for the third slide of this carousel.</p>
               <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
@@ -130,7 +130,7 @@
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="..." class="img-fluid rounded-start" alt="...">
+              <img src="homeimg/flames.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -146,7 +146,7 @@
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="..." class="img-fluid rounded-start" alt="...">
+              <img src="homeimg/wasp.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -162,7 +162,7 @@
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="..." class="img-fluid rounded-start" alt="...">
+              <img src="homeimg/slimes.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -177,7 +177,7 @@
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="..." class="img-fluid rounded-start" alt="...">
+              <img src="homeimg/wwdits.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -192,7 +192,7 @@
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="..." class="img-fluid rounded-start" alt="...">
+              <img src="homeimg/drag.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -214,7 +214,7 @@
       <container class="d-flex justify-content-around flex-wrap">
 
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="homeimg/pin1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -224,7 +224,7 @@
         </div>
 
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="homeimg/pin2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -234,7 +234,7 @@
         </div>
 
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="homeimg/pin3.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -249,10 +249,10 @@
     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
       <div class="row align-items-center g-lg-5 py-5">
         <div class="col-lg-7 text-center text-lg-start">
-          <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
-          <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each
+          <h1 class="display-4 fw-bold lh-1 mb-3">Join the Mailing List</h1>
+          <h2 class="col-lg-10">Below is an example form built entirely with Bootstrap’s form controls. Each
             required form group has a validation state that can be triggered by attempting to submit the form without
-            completing it.</p>
+            completing it.</h2>
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
           <form class="p-4 p-md-5 border rounded-3 bg-light">

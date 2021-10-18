@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Macondo+Swash+Caps&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --primary: #6C6061 !important;
+    --secondary: #6A994E !important;
+    --light:  #D6A184 !important;
+    --dark: #386641 !important;
+    --white: #F2F2EB !important;
+    --lighter: #efcebd !important;
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-lighter {
+    background-color: var(--lighter) !important;
+}
+
+nav .btn {
+    font-size: 2rem;
+}
+
+.btn:hover {
+    opacity: .6;
+    transition: 0.5s;
+    box-shadow: 0px 2px 10px 5px var(--secondary);
+
+}
+
+.btn:active {
+    opacity: .6;
+    transition: 0.5s;
+    box-shadow: 0px 2px 10px 5px var(--secondary);
+
+}
+
+.btn-light {
+    background-color: var(--light) !important;
+    border: 0;
+}
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    color: var(--white) !important;
+}
+
+.nav-link {
+    color: var(--white) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+.text-secondary {
+    color: var(--secondary) !important;
+}
+.text-light {
+    color: var(--light) !important;
+}
+
+.text-muted {
+    color: var(--primary) !important;
+}
+
+.carousel-caption {
+    background-color: rgba(242, 242, 235, 0.7);
+    color: black;
+    border-radius:10%;
+}
+
+.dropdown-item {
+    color: var(--white) !important;
+}
+
+.active {
+    color: var(--primary) !important;
+    background-color: var(--white) !important;
+}
+
+.dropdown-item:hover {
+    color: var(--primary) !important;
+    background-color: var(--white) !important;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Macondo Swash Caps', cursive;
+}
+
+.card-title {
+    font-family: 'IM Fell English', serif;
+}
+
+h2 {
+    font-family: 'IM Fell English', serif;
+    font-size: 1.5rem !important;
+    font-style: italic;
+}
+
+.nav-item {
+    font-family: 'IM Fell English', serif;
+    font-size: 1.5rem;
+    padding: 0.1rem 4rem;
+}
+
+.nav-item:hover {
+    opacity: .6;
+    transition: 0.4s;
+}
