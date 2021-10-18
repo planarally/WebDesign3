@@ -51,10 +51,6 @@ nav .btn {
     color: var(--white) !important;
 }
 
-.nav-link {
-    color: var(--white) !important;
-}
-
 .text-primary {
     color: var(--primary) !important;
 }
@@ -105,15 +101,4 @@ h2 {
     font-family: 'IM Fell English', serif;
     font-size: 1.5rem !important;
     font-style: italic;
-}
-
-.nav-item {
-    font-family: 'IM Fell English', serif;
-    font-size: 1.5rem;
-    padding: 0.1rem 4rem;
-}
-
-.nav-item:hover {
-    opacity: .6;
-    transition: 0.4s;
 }

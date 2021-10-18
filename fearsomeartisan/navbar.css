@@ -33,3 +33,18 @@
         height: 100px;
     }
 }
+
+.nav-link {
+    color: var(--primary) !important;
+}
+
+.nav-item {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 1.5rem;
+    padding: 0.1rem 4rem;
+}
+
+.nav-item:hover {
+    opacity: .6;
+    transition: 0.4s;
+}
