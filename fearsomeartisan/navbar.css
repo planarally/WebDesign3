@@ -8,7 +8,6 @@
     border: none !important;
 }
 
-
 .modal-footer {
     border-top: none;
 }
@@ -26,12 +25,21 @@
     line-height: 2.5;
 }
 
+.jx {
+    justify-content: space-around;
+}
+
 @media (min-width: 1024px) {
 
     #logo {
         width: auto;
-        height: 100px;
+        height: 75px;
     }
+
+    
+.jx {
+    justify-content: space-between;
+}
 }
 
 .nav-link {
@@ -44,7 +52,7 @@
     padding: 0.1rem 3rem;
 }
 
-.nav-item:hover {
+.nav-item .navhov:hover {
     opacity: .6;
     transition: 0.4s;
 }

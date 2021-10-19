@@ -22,34 +22,39 @@
   <header>
 
     
-    <div class="collapse d-lg-block" id="navbarToggleExternalContent">
+    <div class="collapse d-md-block" id="navbarToggleExternalContent">
       <div class="d-flex justify-content-center py-2 bg-lighter">
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="dice.html" class="nav-link">Dice</a></li>
-          <li class="nav-item"><a href="miniatures.html" class="nav-link text-secondary">Miniatures</a></li>
-          <li class="nav-item"><a href="accessories.html" class="nav-link">Accessories</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="commissions.html" class="nav-link">Commissions</a></li>
+          
+          <li class="nav-item">
+            <form class="d-flex">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="searchform">
+              <button type="button" class="btn shadow-none display-inline" data-bs-toggle="modal" data-bs-target="#search"><i
+                class="fas fa-search text-primary"></i></button>
+            </form>
+          </li>
+          <li class="nav-item navhov"><a href="dice.html" class="nav-link">Dice</a></li>
+          <li class="nav-item navhov"><a href="miniatures.html" class="nav-link text-secondary">Miniatures</a></li>
+          <li class="nav-item navhov"><a href="accessories.html" class="nav-link">Accessories</a></li>
+          <li class="nav-item navhov"><a href="blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-item navhov"><a href="commissions.html" class="nav-link">Commissions</a></li>
         </ul>
       </div>
     </div>
 
-    <nav class="d-flex justify-content-around py-3 navbar-expand-lg navbar-light bg-light">
-
-
-        
-      <button type="button" class="btn btn-light shadow-none" data-bs-toggle="modal" data-bs-target="#search"><i
-          class="fas fa-search text-primary"></i></button>
-
-      <a href="index.html"><img src="logo.png" id="logo"></a>
-
-      <button type="button" class="btn btn-light shadow-none"><a href="cart.html"><i
-            class="fas fa-shopping-bag text-primary"></i></a></button>
+    <nav class="d-flex jx px-5 py-3 navbar-expand-md navbar-light bg-light">
 
       <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
         aria-label="Toggle navigation">
-        <i class="fas fa-dice-d20 text-primary"></i>
+        <i class="fas fa-dice-d20 text-primary mx-3"></i></button>
+
+      <a href="index.html"><img src="logo.png" id="logo"></a>
+
+      <button type="button" class="btn btn-light shadow-none mx-3"><a href="cart.html"><i
+            class="fas fa-shopping-bag text-primary"></i></a></button>
+
+
 
     </nav>
 
@@ -57,14 +62,14 @@
     <div class="modal fade" id="search" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-body">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchform">
+          <div class="modal-header">
+            <h1 class="display-6 modal-title" id="exampleModalLabel">Results</h1>
           </div>
+          <div class="modal-body">
+            I rolled a 1 on investigation :(</div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary btn-modal" data-bs-dismiss="modal"><i
                 class="fas fa-times"></i></button>
-            <button type="button" class="btn btn-primary btn-modal modal-search"><i
-                class="fas fa-search px-2"></i></button>
           </div>
         </div>
       </div>
@@ -74,8 +79,8 @@
 
 
   <main>
-    <div class="bg-keller">
-    <section class="py-3 text-center container">
+    <div class="bg-keller py-5">
+    <section class="py-5 text-center container">
       <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
           <h1 class="fw-light display-2">Miniatures</h1>
@@ -92,11 +97,10 @@
 
           <div class="col">
             <div class="card shadow-sm">
-
+                <p class="card-title display-6 text-center pt-4">Title</p>
               <img class="card-img" src="placeholder.png">
 
               <div class="card-body text-center">
-                <p class="card-title display-6">Title</p>
                 <a href="#" class="btn btn-price btn-lg stretched-link">Price</a>
               </div>
 
@@ -105,11 +109,10 @@
 
           <div class="col">
             <div class="card shadow-sm">
-
+                <p class="card-title display-6 text-center pt-4">Title</p>
               <img class="card-img" src="placeholder.png">
 
               <div class="card-body text-center">
-                <p class="card-title display-6">Title</p>
                 <a href="#" class="btn btn-price btn-lg stretched-link">Price</a>
               </div>
 
@@ -118,53 +121,15 @@
 
           <div class="col">
             <div class="card shadow-sm">
-
+                <p class="card-title display-6 text-center pt-4">Title</p>
               <img class="card-img" src="placeholder.png">
 
               <div class="card-body text-center">
-                <p class="card-title display-6">Title</p>
                 <a href="#" class="btn btn-price btn-lg stretched-link">Price</a>
               </div>
 
             </div>
           </div>
-          <div class="col">
-            <div class="card shadow-sm">
-
-              <img class="card-img" src="placeholder.png">
-
-              <div class="card-body text-center">
-                <p class="card-title display-6">Title</p>
-                <a href="#" class="btn btn-price btn-lg stretched-link">Price</a>
-              </div>
-
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-
-              <img class="card-img" src="placeholder.png">
-
-              <div class="card-body text-center">
-                <p class="card-title display-6">Title</p>
-                <a href="#" class="btn btn-price btn-lg stretched-link">Price</a>
-              </div>
-
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-
-              <img class="card-img" src="placeholder.png">
-
-              <div class="card-body text-center">
-                <p class="card-title display-6">Title</p>
-                <a href="#" class="btn btn-price btn-lg stretched-link">Price</a>
-              </div>
-
-            </div>
-          </div>
-
 
         </div>
       </div>

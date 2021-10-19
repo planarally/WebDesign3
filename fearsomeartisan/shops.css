@@ -3,7 +3,7 @@
 }
 
 .card-img {
-    width: 70%;
+    width: 55%;
     margin: 15px auto 0px auto;
 }
 
@@ -37,4 +37,9 @@
     padding-top: 18px;
     top: 45px;
     left: -12px;
+}
+
+.disabled  {
+    color: var(--primary) !important;
+    border-color: var(--primary) !important;
 }
