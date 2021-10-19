@@ -139,19 +139,6 @@
     border-radius:10%;
 }
 
-.dropdown-item {
-    color: var(--white) !important;
-}
-
-.active {
-    color: var(--primary) !important;
-    background-color: var(--white) !important;
-}
-
-.dropdown-item:hover {
-    color: var(--primary) !important;
-    background-color: var(--white) !important;
-}
 
 body {
     font-family: 'Work Sans', sans-serif;

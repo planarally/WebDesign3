@@ -1,11 +1,14 @@
 .card {
-    border-radius: 60%
+    border-radius: 60%;
+    width: 100%;
 }
 
 .card-img {
-    width: 55%;
+    width: 65%;
     margin: 15px auto 0px auto;
+    
 }
+
 
 .card .btn {
     border-radius: 50%;
