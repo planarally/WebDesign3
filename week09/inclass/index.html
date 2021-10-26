@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADIENT ZONE!</title>
+
+    <style>
+        section {
+            height: 350px;
+        }
+
+        #grad1 {
+            background-image: linear-gradient( turquoise, yellow 65%, red)
+        }
+
+        #grad2 {
+            background: rgb(230,192,207);
+            background: linear-gradient(90deg, rgba(230,192,207,1) 0%, rgba(220,176,163,1) 14%, rgba(212,164,130,1) 43%, rgba(233,208,146,1) 73%, rgba(250,243,159,1) 100%);
+        }
+
+        #grad3 {
+            background-image: repeating-linear-gradient(110deg, lavender 0%, pink 15%, lightgrey 25%, lavender 35%)
+        }
+
+        #grad4 {
+            background: rgb(61,196,147);
+            background: radial-gradient(circle, rgba(61,196,147,1) 0%, rgba(130,212,130,1) 45%, rgba(250,243,159,1) 100%);
+        }
+
+        #grad5 {
+            background-image: url(Bernie21.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        #grad5 h1{
+            font-size: 80px;
+            margin: 0px;
+            text-align: left;
+            color: white;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%)
+        }
+
+        .transparent-gradient{
+            width:100%;
+            height:100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-image: linear-gradient(90deg, rgba(10, 100, 180, 1), transparent)
+        }
+
+        /* check out cssgradient.io */
+
+    </style>
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <section id="grad1"></section>
+        <section id="grad2"></section>
+        <section id="grad3"></section>
+        <section id="grad4"></section>
+        <section id="grad5">
+            <div class="transparent-gradient">
+                <h1>bingus???</h1></div>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
