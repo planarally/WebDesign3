@@ -1,0 +1,43 @@
+.navbar-brand img{
+    height: 5rem;
+
+}
+.nav-item {
+    padding: 0px 3rem;
+}
+
+.album img {
+    width: 70%;
+    transition: -webkit-filter 2s, transform 2s;
+}
+
+.bigicon {
+    height: 6rem !important;
+}
+
+.album img:hover {
+    -webkit-filter: hue-rotate(360deg); filter: hue-rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+.bg-grad {
+    background-image: repeating-linear-gradient(110deg, lavender 0%, pink 15%, lightgrey 25%, lavender 35%)
+        
+}
+
+.nav-link {
+    color: rgb(25, 152, 255) !important;
+    text-shadow: 1px 1px 1px rgb(97, 97, 97);
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: text-shadow .5s, color .5s, font-size .5s !important;
+    width: 100px;
+
+}
+
+.nav-link:hover {
+    color: white !important;
+    text-shadow: 4px 4px 4px #000;
+    font-size: 1.4rem;
+}
