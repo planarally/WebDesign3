@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden;
+            animation: colorBody 5s;
+            position: relative;
+            height: 100vh;
+        }
+
+        .circle{
+            position: absolute;
+            background-color: lightyellow;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            width:0vw;
+            height: 0vh;
+            animation: circleAnim 4s 1s forwards;
+            z-index: 5;
+        }
+        
+        .stripe{
+            height: 25vh;
+            width: 100vw;
+            position: absolute;
+        }
+
+        #stripe1{
+            background-color: cadetblue;
+            /* right: -100vw; */
+            top: 0;
+            animation-name: rightToLeft;
+            animation-duration: 2.5s;
+            /* animation-fill-mode: forwards; */
+
+        }
+        #stripe2{
+            background-color: darksalmon;
+            left: -100vw;
+            top: 25vh;
+            animation-name: leftToRight;
+            animation-duration: 2.5s;
+            animation-delay: .5s;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+
+            
+        }
+        #stripe3{
+            background-color: khaki;
+            right: -100vw;
+            top: 50vh;
+            animation-name: rightToLeft;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+        }
+        #stripe4{
+            background-color: lightseagreen;
+            left: -100vw;
+            top: 75vh;
+            animation-name: leftToRight;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+        }
+        main {
+            width: 960px;
+            margin: auto;
+            top:20vh;
+            animation: showMain 2s 3s forwards;
+            z-index: 10;
+            position: relative;
+            opacity: 0;
+        }
+        
+        h1 {
+            margin:0;
+        }
+
+        main p {
+            columns: 2;
+        }
+        /* ANIMATIONS */
+
+        @keyframes colorBody{
+            from{background-color:lightyellow;}
+            to{background-color: peru;}
+        }
+
+        @keyframes circleAnim{
+            0%{width: 1vw;
+                height: 1vh;
+                background-color: lightyellow;}
+            20%{
+                background-color: turquoise;
+            }
+            40% {
+                background-color:violet;
+            }
+            60%{
+                background-color: lightyellow;
+            }
+            100%{
+                width: max(150vw, 150vh);
+                height: max(150vw, 150vh);
+            }
+        }
+
+        
+        @keyframes showMain {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes rightToLeft {
+            from{right: -100vw;}
+            to{right:0;}
+        }  
+
+        @keyframes leftToRight {
+            from{left: -100vw;}
+            to{left:0;}
+        }  
+
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <div class="stripe" id="stripe1"></div>
+    <div class="stripe" id="stripe2"></div>
+    <div class="stripe" id="stripe3"></div>
+    <div class="stripe" id="stripe4"></div> 
+    <main>
+        <h1>Welcome to the world of CSS animation</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi architecto ducimus reiciendis amet assumenda a nihil explicabo numquam minima debitis. Nulla temporibus adipisci in modi cum voluptas numquam rem facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt molestias eius excepturi, magnam officia incidunt, aut voluptatum illum possimus officiis. Deserunt eveniet aspernatur ad minima veritatis quibusdam eius provident!</p>
+      </main>
+</body>
+</html>
