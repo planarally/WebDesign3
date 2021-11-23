@@ -40,11 +40,12 @@ function draw (){
     background(175, 15, 90);
     fill (255, 0, 100);
     strokeWeight (2);
-    rect (5, 5, 70, 30);
+    rect (5, 5, 70, 30, 20);
 
     textSize(24);
+    textAlign(CENTER);
     fill(1, 1, 0);
-    text(clickCounter, 12, 29);
+    text(clickCounter, 40, 29);
 
     circleClr = color(sliderHue.value(), 80, 100)
     fill (circleClr);
