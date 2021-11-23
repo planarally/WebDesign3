@@ -26,10 +26,10 @@ function setup (){
     posX = width/2;
     posY = height/2;
 
-    velX = 1.3;
-    velY = 1.8;
+    velX = 1;
+    velY = 1.3;
 
-    radius = 300;
+    radius = 50;
     circleClr = color(51, 91, 99);
 
     clickCounter = 0;
@@ -66,7 +66,6 @@ function draw (){
 function mouseReleased(){
     if (dist(mouseX, mouseY, posX, posY) < radius){
         // circleClr = color (0, 100, 100);
-        radius -= 10;
         clickCounter++;
         if(velX > 0){
             velX++;
