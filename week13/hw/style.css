@@ -4,12 +4,15 @@
     height: 100vh - 5px;
 }
 
+nav a {
+    color: grey !important;
+}
+
 /*
  * Header
  */
 
 .nav-masthead .nav-link {
-  background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
 
