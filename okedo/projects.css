@@ -34,7 +34,7 @@ body {
 }
 
 .card {
-  background-color: black !important;
+  background-color: rgba(0,0,0, .8) !important;
   font-size: 1em;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   border-radius: 0 !important;
@@ -44,7 +44,11 @@ body {
 }
 
 .margin-fix {
-  margin-top: 8rem;
+  margin-top: 10rem;
+}
+
+.margin-fix2{    
+  margin-bottom: 22rem;
 }
 
 .carousel-indicators [data-bs-target] {

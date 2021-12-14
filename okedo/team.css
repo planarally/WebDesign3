@@ -370,6 +370,11 @@
 
   @media (min-width: 1920px) {
 
+    
+    .nav-link {
+        font-size: 1rem !important;
+        padding: 0rem 1rem !important;
+    }
 
       .typer {
           font-size: 3.5rem
