@@ -255,6 +255,11 @@
   @media (min-width: 1280px) {
 
     
+    .nav-link {
+        font-size: 1.3rem !important;
+        padding: 0rem 1rem !important;
+    }
+    
     .ctyper {
         top: 11rem;
     }
@@ -364,7 +369,6 @@
   /* desktop beeg */
 
   @media (min-width: 1920px) {
-
 
 
       .typer {

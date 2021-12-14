@@ -4,6 +4,7 @@ body {
     overflow: hidden !important;
 }
 
+
 .component {
     position: relative;
     display: flex;
