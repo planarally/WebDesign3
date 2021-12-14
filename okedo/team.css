@@ -3,10 +3,10 @@
   @import url(button.css);
 
 
-  .buttonny {    
+  .buttonny {
       position: relative;
-    top: 9rem;
-    left: 8rem;
+      top: 9rem;
+      left: 8rem;
 
   }
 
@@ -24,7 +24,7 @@
       animation-direction: normal;
       position: absolute;
       top: 0;
-      opacity: 0.3;
+      opacity: 0.1;
       z-index: -1;
   }
 
@@ -41,7 +41,7 @@
 
       100% {
           transform: translate(-200px);
-          opacity: 0.3;
+          opacity: 0.1;
       }
   }
 
@@ -79,7 +79,7 @@
       animation: type2 5s steps(60, end);
   }
 
-  span{
+  span {
       animation: blink 1s infinite;
   }
 
@@ -173,109 +173,226 @@
 
   .valuesbg {
       background-image: url(img/albert.jpg);
-      background-position: 61% 100%;
+      background-position: 80% 100%;
 
   }
 
-  .valueLeft p{
+  .valueLeft p {
       font-size: .8rem;
       margin-top: 1rem;
 
   }
 
-  .valueRight p{
-    font-size: .8rem;
-    margin-top: 1rem;
+  .valueRight p {
+      font-size: .8rem;
+      margin-top: 1rem;
 
-}
+  }
 
-/* ipad */
+  /* ipad */
 
-@media (min-width: 810px) {
+  @media (min-width: 810px) {
 
-    .ctyper {
-        top: 20rem;
-    }
+      .ctyper {
+          top: 20rem;
+      }
 
-    .typer {
-        font-size: 2.5rem;
-    }
+      .typer {
+          font-size: 2.5rem;
+      }
 
-    .paragraph {
-        position: absolute;
-        z-index: 1;
-        opacity: 0;
-        top: 28rem;
-        animation: fadein 3s;
-        animation-delay: 2s;
-        animation-fill-mode: forwards;
-    }
+      .paragraph {
+          position: absolute;
+          z-index: 1;
+          opacity: 0;
+          top: 28rem;
+          animation: fadein 3s;
+          animation-delay: 2s;
+          animation-fill-mode: forwards;
+      }
 
-    @keyframes fadein {
-        from {
-            opacity: 0;
-            top: 32rem;
-        }
-  
-        to {
-            opacity: 1;
-            top: 28rem;
-        }
-    }
+      @keyframes fadein {
+          from {
+              opacity: 0;
+              top: 32rem;
+          }
 
-    .valuesbg {
-        background-position: 58% 136%;
-        background-repeat: no-repeat;
-    }
+          to {
+              opacity: 1;
+              top: 28rem;
+          }
+      }
 
-    .glitch {
-        font-size: 3.5rem;
-        width: 800px;
-    }
+      .valuesbg {
+          background-position: 58% 136%;
+          background-repeat: no-repeat;
+      }
 
-    .m-6 {
-        margin: 5rem !important;
-    }
+      .glitch {
+          font-size: 3.5rem;
+          width: 800px;
+      }
 
-.valueLeft 
-.valueRight {
-    padding: 3rem;
-}
+      .m-6 {
+          margin: 5rem !important;
+      }
 
-    .valueLeft p {
-        font-size: 1.2rem;
-    }
-    .valueRight p {
-        font-size: 1.2rem;
-    }
-}
+      .valueLeft .valueRight {
+          padding: 3rem;
+      }
 
-/* desktop */
+      .valueLeft p {
+          font-size: 1.2rem;
+      }
 
-@media (min-width: 1024px) {
+      .valueRight p {
+          font-size: 1.2rem;
+      }
+  }
 
-    .display-3 {
-        font-size: calc(1.525rem + 1.3vw) !important;
-    }
+  /* desktop */
 
-    .m-6 {
-        margin: 3rem !important;
-    }
+  @media (min-width: 1024px) {
 
-    .glitch {
-        left: 10rem;
-    }
+      .pic {
+          top: 33px;
+      }
 
-    .glitch2 {
-        left: 0rem;
-    }
+      @keyframes vanish {
+          0% {
+              opacity: 0.1;
+          }
 
-.bubbly-button {
-    bottom: -40px;
-}
+          50% {
+              transform: translate(0px);
+              opacity: 1;
+          }
 
-.teamsbg{
-    background-position: 74% -17%;
-background-size: 126%;
-}
-}
+          100% {
+              transform: translate(500px);
+              opacity: 0.1;
+          }
+      }
+
+      .display-3 {
+          font-size: calc(1.525rem + 1.3vw) !important;
+      }
+
+      .m-6 {
+          margin: 3rem !important;
+      }
+
+      .glitch {
+          left: 10rem;
+      }
+
+      .glitch2 {
+          left: 0rem;
+      }
+
+      .valueLeft p {
+          font-size: 1rem;
+      }
+
+      .valueRight p {
+          font-size: 1rem;
+      }
+
+      .valuesbg {
+          background-position: 100% 91%;
+      }
+
+      .bubbly-button {
+          bottom: -40px;
+      }
+
+      .teamsbg {
+          background-position: 74% -17%;
+          background-size: 126%;
+      }
+  }
+
+
+  /* desktop beeg */
+
+  @media (min-width: 1920px) {
+
+
+
+      .typer {
+          font-size: 3.5rem
+      }
+
+      .paragraph {
+          width: 500px;
+          top: 35rem;
+      }
+
+
+      @keyframes fadein {
+          from {
+              opacity: 0;
+              top: 40rem;
+          }
+
+          to {
+              opacity: 1;
+              top: 35rem;
+          }
+      }
+
+
+      .core {
+          display: inline-block;
+          width: 600px;
+          Position: relative;
+          left: 80rem;
+
+
+      }
+
+      .valuesbg {
+          background-image: url(img/albertbeeg.jpg);
+          background-position: 80% 90%;
+          background-size: 110%;
+
+      }
+
+      .glitch {
+          left: -12rem;
+      }
+
+      .glitch2 {
+          left: 0px;
+      }
+
+      .display-3 {
+          font-size: 2rem !important;
+      }
+
+      .m-6 {
+          margin: 3rem !important;
+      }
+
+      .valueLeft p {
+          font-size: 1rem;
+          width: 500px;
+
+      }
+
+      .valueRight p {
+          font-size: 1rem;
+          width: 500px;
+
+      }
+
+      .teamsbg {
+          background-position: 63% 0%;
+          background-size: 126%;
+      }
+
+      .bubbly-button {
+          bottom: -45px;
+      }
+
+  }

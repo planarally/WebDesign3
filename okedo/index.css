@@ -1,21 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url(button.css);
+
+body {
+    overflow: hidden !important;
 }
 
-body{
-    overflow: hidden;
-}
-
-.component{
+.component {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 400px; 
+    min-height: 400px;
 }
 
-.canvas{
+.canvas {
     position: absolute;
     top: 0;
     right: 0;
@@ -56,7 +53,7 @@ h1 {
 
 .hoverr:hover {
     color: #D81E5B;
-    cursor:default;
+    cursor: default;
     text-shadow: #87F1FF -2px 3px;
 }
 
@@ -71,16 +68,19 @@ h1 {
     font-weight: 700;
     margin-top: 3rem;
 }
+
 .space {
     display: inline-block;
     width: 10px;
 }
+
 .text-animation {
     display: inline-block;
     position: relative;
     color: transparent;
     text-transform: uppercase;
 }
+
 .text-animation:before {
     content: '';
     color: white;
@@ -94,19 +94,27 @@ h1 {
     -ms-transform: translate(-50%, -55%);
     transform: translate(-50%, -55%);
 }
+
 .text-animation.state-1:before {
     width: 1px;
 }
+
 .text-animation.state-2:before {
     width: 0.9em;
 }
+
 .text-animation.state-3 {
     color: white;
 }
+
 .text-animation.state-3:before {
     width: 0;
 }
 
+
+.top-100 {
+    top: 120% !important;
+}
 
 /* ipad */
 
@@ -122,38 +130,42 @@ h1 {
 
     .decode-text {
         width: 90%;
-        font-size: 58px;
+        font-size: 40px;
         margin-top: 3rem;
     }
 
-  
-  }
 
-  /* desktop */
-  
-  @media (min-width: 1024px) {
-  
+    .top-100 {
+        top: 120% !important;
+    }
+
+}
+
+/* desktop */
+
+@media (min-width: 1024px) {
+
     .title {
         width: 85vw;
-        top: -300px;
+        top: -200px;
     }
 
     .hoverr {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
     .decode-text {
         width: 90%;
-        font-size: 50px;
-        margin-top: 3rem;
+        font-size: 40px;
+        margin-top: 2rem;
     }
-  
-  }
 
-  /* beeg desktop */
+}
 
-  @media (min-width: 1920px) {
-  
+/* beeg desktop */
+
+@media (min-width: 1920px) {
+
     .title {
         width: 85vw;
         top: -200px;
@@ -168,5 +180,9 @@ h1 {
         font-size: 60px;
         margin-top: 3rem;
     }
-  
-  }
+
+    .top-100 {
+        top: 115% !important;
+    }
+
+}

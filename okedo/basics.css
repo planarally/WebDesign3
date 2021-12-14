@@ -41,7 +41,7 @@ nav {
   font-size: .8rem !important;
 }
 
-.m-6{
+.m-6 {
   margin: 4rem !important;
 }
 
@@ -57,13 +57,19 @@ a:hover {
   color: #D81E5B !important;
 }
 
-.pink:hover {
-  color: #87F1FF !important;
-}
-
 .blue {
   color: #87F1FF !important;
 }
+
+.pinkh {
+  color: #D81E5B !important;
+}
+
+.pinkh:hover {
+  color: #87F1FF !important;
+}
+
+
 
 /* ipad */
 

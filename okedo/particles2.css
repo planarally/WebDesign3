@@ -1,0 +1,11 @@
+canvas {
+    display: inline-block;
+    z-index: 1;
+}
+
+#particles-js {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}

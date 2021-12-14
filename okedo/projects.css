@@ -1,0 +1,106 @@
+@import url(button.css);
+@import url(particles1.css);
+@import url(glitchtext.css);
+
+.glitch {
+  font-size: 2rem !important;
+  left: 2.7rem;
+}
+
+
+.card-title {
+  text-transform: uppercase;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem !important;
+  padding: .5rem;
+}
+
+.card-text {
+  padding: 5px;
+  font-size: .8rem;
+}
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+
+}
+
+.card {
+  background-color: black !important;
+  font-size: 1em;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 0 !important;
+  margin-top: 20px;
+  height: 322.767px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  background-color: #fff;
+}
+
+.carousel-indicators .active {
+  background-color: #D81E5B;
+  max-width: 12px;
+  margin: 0 4px;
+  height: 12px;
+}
+
+.carousel-item {
+  height: 322.767px;
+}
+
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 322.767px;
+}
+
+.bubbly-button {
+  margin: 10px;
+}
+
+
+/* ipad */
+
+@media (min-width: 810px) {
+
+  .glitch {
+    font-size: 2rem !important;
+    left: 12rem;
+  }
+}
+
+
+/* desktop */
+
+@media (min-width: 1024px) {
+
+  .glitch {
+    font-size: 3rem !important;
+    width: 600px;
+    left: 16rem;
+  }
+}
+
+
+/* desktop beeg */
+
+@media (min-width: 1920px) {
+
+  .glitch {
+    font-size: 4rem !important;
+    width: 600px;
+    left: 25rem;
+  }
+}
