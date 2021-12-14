@@ -149,13 +149,12 @@ span {
 @media (min-width: 1600px) {
 
     p {
-        font-size: 2rem;
+        font-size: 1.3rem;
         line-height: 3rem;
     }
 
     .inner {
         max-width: 50%;
-
-        padding: 4rem;
+        padding: 2rem;
     }
 }

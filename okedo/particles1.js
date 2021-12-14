@@ -2,6 +2,7 @@ var color = '#87F1FF';
 var maxParticles = 80;
 
 // ParticlesJS Config.
+
 particlesJS('particles-js', {
   'particles': {
     'number': {

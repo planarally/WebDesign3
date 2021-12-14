@@ -373,19 +373,20 @@
 
       .paragraph {
           width: 500px;
-          top: 35rem;
+          top: 22rem;
+          left: 5rem;
       }
 
 
       @keyframes fadein {
           from {
               opacity: 0;
-              top: 40rem;
+              top: 30rem;
           }
 
           to {
               opacity: 1;
-              top: 35rem;
+              top: 22rem;
           }
       }
 

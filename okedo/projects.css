@@ -2,6 +2,10 @@
 @import url(particles1.css);
 @import url(glitchtext.css);
 
+body {
+  overflow:hidden !important;
+}
+
 .glitch {
   font-size: 2rem !important;
   left: 2.7rem;
@@ -34,8 +38,13 @@
   font-size: 1em;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   border-radius: 0 !important;
-  margin-top: 20px;
+  margin-top: 1rem;
+  margin-bottom: 19rem;
   height: 322.767px !important;
+}
+
+.margin-fix {
+  margin-top: 8rem;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -62,8 +71,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  height: 322.767px;
+  width: 100%;
+  min-height: 322.767px;
 }
 
 .bubbly-button {
@@ -77,8 +86,24 @@
 
   .glitch {
     font-size: 2rem !important;
-    left: 12rem;
+    left: 13rem;
+    top: 1rem;
   }
+
+  
+.margin-fix {
+  margin-top: 1rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+  
+.w-100 {
+  width: auto !important;
+  height: 322.767px !important;
+
+}
 }
 
 
