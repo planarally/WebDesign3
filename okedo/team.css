@@ -252,7 +252,32 @@
 
   /* desktop */
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
+
+    
+    .ctyper {
+        top: 11rem;
+    }
+
+
+    .paragraph {
+        width: 500px;
+        top: 20rem;
+    }
+
+
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+            top: 30rem;
+        }
+
+        to {
+            opacity: 1;
+            top: 20rem;
+        }
+    }
 
       .pic {
           top: 33px;
@@ -274,12 +299,35 @@
           }
       }
 
-      .display-3 {
-          font-size: calc(1.525rem + 1.3vw) !important;
+
+      .core {
+        display: inline-block;
+        width: 600px;
+        Position: relative;
+        left: 42rem;
       }
 
-      .m-6 {
-          margin: 3rem !important;
+      
+      .glitch {
+        font-size: 1.8rem;
+    }
+
+    .m-6 {
+        margin: 1.5rem !important;
+    }
+
+      .display-3 {
+          font-size: 1.5rem !important;
+      }
+
+      .valueLeft p {
+          font-size: .9rem !important;
+
+      }
+
+      .valueRight p {
+          font-size: .9rem !important;
+
       }
 
       .glitch {
@@ -287,7 +335,7 @@
       }
 
       .glitch2 {
-          left: 0rem;
+          left: 10rem !important;
       }
 
       .valueLeft p {
@@ -307,7 +355,7 @@
       }
 
       .teamsbg {
-          background-position: 74% -17%;
+          background-position: 74% 1%;
           background-size: 126%;
       }
   }

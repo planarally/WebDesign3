@@ -84,12 +84,13 @@
 
 /* desktop */
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
 
-  .glitch {
-    font-size: 3rem !important;
+  .glitch {    
+    font-size: 4rem !important;
     width: 600px;
-    left: 16rem;
+    left: 17rem;
+    top: 1rem;
   }
 }
 
