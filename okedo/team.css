@@ -1,0 +1,281 @@
+  @import url(glitchtext.css);
+  @import url(staff.css);
+  @import url(button.css);
+
+
+  .buttonny {    
+      position: relative;
+    top: 9rem;
+    left: 8rem;
+
+  }
+
+  /* intro background*/
+
+  .pic {
+      -webkit-filter: url("#glitch");
+      filter: url("#glitch");
+      animation-name: vanish;
+      animation-duration: 4s;
+      animation-fill-mode: both;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+      animation-direction: normal;
+      position: absolute;
+      top: 0;
+      opacity: 0.3;
+      z-index: -1;
+  }
+
+
+  @keyframes vanish {
+      0% {
+          opacity: 0.1;
+      }
+
+      50% {
+          transform: translate(-200px);
+          opacity: 1;
+      }
+
+      100% {
+          transform: translate(-200px);
+          opacity: 0.3;
+      }
+  }
+
+  /* intro text */
+
+  .ctyper {
+      position: absolute;
+      top: 100px;
+      z-index: 1;
+
+  }
+
+  .paragraph {
+      position: absolute;
+      z-index: 1;
+      opacity: 0;
+      top: 230px;
+      animation: fadein 3s;
+      animation-delay: 2s;
+      animation-fill-mode: forwards;
+  }
+
+  .typer {
+      color: #87F1FF;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1.5rem;
+      margin: 10px 0 0 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 30em;
+      animation: type 4s steps(60, end);
+  }
+
+  .typer:nth-child(2) {
+      animation: type2 5s steps(60, end);
+  }
+
+  span{
+      animation: blink 1s infinite;
+  }
+
+
+  @keyframes fadein {
+      from {
+          opacity: 0;
+          top: 230px;
+      }
+
+      to {
+          opacity: 1;
+          top: 200px;
+      }
+  }
+
+  @keyframes type {
+      from {
+          width: 0;
+      }
+  }
+
+  @keyframes type2 {
+      0% {
+          width: 0;
+      }
+
+      50% {
+          width: 0;
+      }
+
+      100% {
+          width: 100;
+      }
+  }
+
+  @keyframes blink {
+      to {
+          opacity: .0;
+      }
+  }
+
+  ::selection {
+      background: black;
+  }
+
+  /* scroll btn */
+
+  .scrollhold {
+      position: relative;
+      bottom: 1rem;
+  }
+
+  .scroll-indicator {
+      position: relative;
+      font-size: 50px;
+
+      -webkit-animation: bounce 1s infinite;
+      animation: bounce 1s infinite;
+  }
+
+  @-webkit-keyframes bounce {
+      0% {
+          top: 15%;
+      }
+
+      50% {
+          top: 25%;
+      }
+
+      100% {
+          top: 15%;
+      }
+  }
+
+  @keyframes bounce {
+      0% {
+          top: 15%;
+      }
+
+      50% {
+          top: 25%;
+      }
+
+      100% {
+          top: 15%;
+      }
+  }
+
+  /* values */
+
+  .valuesbg {
+      background-image: url(img/albert.jpg);
+      background-position: 61% 100%;
+
+  }
+
+  .valueLeft p{
+      font-size: .8rem;
+      margin-top: 1rem;
+
+  }
+
+  .valueRight p{
+    font-size: .8rem;
+    margin-top: 1rem;
+
+}
+
+/* ipad */
+
+@media (min-width: 810px) {
+
+    .ctyper {
+        top: 20rem;
+    }
+
+    .typer {
+        font-size: 2.5rem;
+    }
+
+    .paragraph {
+        position: absolute;
+        z-index: 1;
+        opacity: 0;
+        top: 28rem;
+        animation: fadein 3s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+            top: 32rem;
+        }
+  
+        to {
+            opacity: 1;
+            top: 28rem;
+        }
+    }
+
+    .valuesbg {
+        background-position: 58% 136%;
+        background-repeat: no-repeat;
+    }
+
+    .glitch {
+        font-size: 3.5rem;
+        width: 800px;
+    }
+
+    .m-6 {
+        margin: 5rem !important;
+    }
+
+.valueLeft 
+.valueRight {
+    padding: 3rem;
+}
+
+    .valueLeft p {
+        font-size: 1.2rem;
+    }
+    .valueRight p {
+        font-size: 1.2rem;
+    }
+}
+
+/* desktop */
+
+@media (min-width: 1024px) {
+
+    .display-3 {
+        font-size: calc(1.525rem + 1.3vw) !important;
+    }
+
+    .m-6 {
+        margin: 3rem !important;
+    }
+
+    .glitch {
+        left: 10rem;
+    }
+
+    .glitch2 {
+        left: 0rem;
+    }
+
+.bubbly-button {
+    bottom: -40px;
+}
+
+.teamsbg{
+    background-position: 74% -17%;
+background-size: 126%;
+}
+}

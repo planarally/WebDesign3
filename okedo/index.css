@@ -12,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 500px; 
+    min-height: 400px; 
 }
 
 .canvas{
@@ -25,3 +25,148 @@ body{
     background: #f8f8f8;
     vertical-align: middle;
 }
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    top: -300px;
+    width: 75vw;
+    margin: auto;
+}
+
+.titlecontainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem;
+}
+
+.hoverr {
+    text-shadow: #D81E5B -5px 6px;
+    font-size: 4rem;
+}
+
+.hoverr:hover {
+    color: #D81E5B;
+    cursor:default;
+    text-shadow: #87F1FF -2px 3px;
+}
+
+
+
+/* decoder */
+
+.decode-text {
+    width: 90%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.space {
+    display: inline-block;
+    width: 10px;
+}
+.text-animation {
+    display: inline-block;
+    position: relative;
+    color: transparent;
+    text-transform: uppercase;
+}
+.text-animation:before {
+    content: '';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: white;
+    width: 0;
+    height: 1.2em;
+    -webkit-transform: translate(-50%, -55%);
+    -ms-transform: translate(-50%, -55%);
+    transform: translate(-50%, -55%);
+}
+.text-animation.state-1:before {
+    width: 1px;
+}
+.text-animation.state-2:before {
+    width: 0.9em;
+}
+.text-animation.state-3 {
+    color: white;
+}
+.text-animation.state-3:before {
+    width: 0;
+}
+
+
+/* ipad */
+
+@media (min-width: 810px) {
+
+    .title {
+        width: 85vw;
+    }
+
+    .hoverr {
+        font-size: 8rem;
+    }
+
+    .decode-text {
+        width: 90%;
+        font-size: 58px;
+        margin-top: 3rem;
+    }
+
+  
+  }
+
+  /* desktop */
+  
+  @media (min-width: 1024px) {
+  
+    .title {
+        width: 85vw;
+        top: -300px;
+    }
+
+    .hoverr {
+        font-size: 7rem;
+    }
+
+    .decode-text {
+        width: 90%;
+        font-size: 50px;
+        margin-top: 3rem;
+    }
+  
+  }
+
+  /* beeg desktop */
+
+  @media (min-width: 1920px) {
+  
+    .title {
+        width: 85vw;
+        top: -200px;
+    }
+
+    .hoverr {
+        font-size: 10rem;
+    }
+
+    .decode-text {
+        width: 90%;
+        font-size: 60px;
+        margin-top: 3rem;
+    }
+  
+  }
